@@ -1,20 +1,20 @@
 Why does Jackson 2.6 work and Jackson 2.7+ fail?
 
-Run the tests with the default Maven profile to see them succeed.
+Run the tests with Jackson 2.6 using the default Maven profile to see them succeed.
 
 [source,bash]
 ----
 $ ./mvnw test
 ----
 
-You can run the tests with Jackson 2.7 using the jackson27 profile and see them fail
+You can run the tests with Jackson 2.7 using the jackson27 Maven profile and see them fail
 
 [source,bash]
 ----
 $ ./mvnw test -Pjackson27
 ----
 
-You can run the tests using jackson 2.8 using the jackson28 profile and see them fail
+You can run the tests using jackson 2.8 using the jackson28 Maven profile and see them fail
 
 [source,bash]
 ----
