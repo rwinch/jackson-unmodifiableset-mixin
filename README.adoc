@@ -1,0 +1,3 @@
+Why does Jackson 2.6 work and Jackson 2.7+ fail?
+
+Run the tests with the default Maven profile to see them succeed. To see them fail, enable the fail maven profile (which changes the Jackson Version to 2.7).
