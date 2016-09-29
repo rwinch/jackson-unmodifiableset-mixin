@@ -1,4 +1,4 @@
-Why does Jackson 2.6 work and Jackson 2.7+ fail?
+A project to replicate http://stackoverflow.com/questions/39776350/custom-unmodifiablesetmixin-fails-in-jackson-2-7[Custom UnmodifiableSetMixin Fails in Jackson 2.7+]. Why does Jackson 2.6 work and Jackson 2.7+ fail?
 
 Run the tests with Jackson 2.6 using the default Maven profile to see them succeed.
 
